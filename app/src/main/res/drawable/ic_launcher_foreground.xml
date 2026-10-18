@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Launcher icon foreground: two opposing arrows, the universal "transfer" mark.
+
+  Drawn as a vector rather than shipped as five raster sizes so the adaptive icon stays crisp at
+  every mask shape, and so the whole icon costs a few hundred bytes instead of tens of kilobytes.
+  The artwork is inset well inside the 108dp canvas because Android masks the outer third: anything
+  drawn near the edge would be cropped on a circular launcher.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top arrow, pointing right. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,44 L66,44 L66,38 L78,47 L66,56 L66,50 L38,50 Z" />
+
+    <!-- Bottom arrow, pointing left. -->
+    <path
+        android:fillColor="#6FF6FC"
+        android:pathData="M70,58 L42,58 L42,52 L30,61 L42,70 L42,64 L70,64 Z" />
+</vector>

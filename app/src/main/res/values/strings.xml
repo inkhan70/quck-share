@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickShare</string>
+    <string name="app_tagline">Fast device-to-device transfer over Wi-Fi</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Nearby</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_title">Nearby devices</string>
+    <string name="home_receive_toggle">Receive files</string>
+    <string name="home_receive_on">Visible to nearby devices</string>
+    <string name="home_receive_off">Not accepting files</string>
+    <string name="home_scanning">Looking for devices on your Wi-Fi…</string>
+    <string name="home_no_devices">No devices found yet</string>
+    <string name="home_no_devices_hint">Make sure QuickShare is open on the other device and both are on the same Wi-Fi network.</string>
+    <string name="home_offline_title">Not connected to Wi-Fi</string>
+    <!-- The apostrophe is escaped: an unescaped one is a hard AAPT error, not a lint warning. -->
+    <string name="home_offline_hint">Connect both devices to the same Wi-Fi network, or turn on one device\'s hotspot and join it from the other.</string>
+    <string name="home_no_wifi_permission">Allow network access to find nearby devices.</string>
+    <string name="home_manual_connect">Connect by IP address</string>
+    <string name="home_show_qr">Show my QR code</string>
+    <string name="home_scan_qr">Scan QR code</string>
+    <string name="home_send_files">Send files</string>
+    <string name="home_this_device">This device</string>
+    <string name="home_device_incompatible">Needs a newer version of QuickShare</string>
+    <string name="home_refresh">Refresh</string>
+
+    <!-- Send -->
+    <string name="send_title">Send to %1$s</string>
+    <string name="send_pick_files">Choose files</string>
+    <string name="send_no_files">No files selected</string>
+    <string name="send_no_files_hint">Tap “Choose files” to pick photos, videos, documents, APKs or anything else.</string>
+    <string name="send_start">Send</string>
+    <string name="send_add_more">Add more</string>
+    <string name="send_remove">Remove</string>
+    <string name="send_clear_all">Clear all</string>
+    <string name="send_total">%1$d file(s) · %2$s</string>
+
+    <!-- Pairing -->
+    <string name="pair_title">Confirm pairing</string>
+    <string name="pair_message">%1$s wants to connect. Check that the code on the other device is:</string>
+    <string name="pair_accept">Pair and continue</string>
+    <string name="pair_decline">Decline</string>
+    <string name="pair_show_code_title">Pairing code</string>
+    <string name="pair_show_code_message">Ask the other device to confirm this code: %1$s</string>
+    <string name="pair_code_mismatch">The code did not match. Ask the other device to try again.</string>
+    <string name="pair_expired">The pairing request timed out.</string>
+
+    <!-- Offer -->
+    <string name="offer_title">Incoming files</string>
+    <string name="offer_message">%1$s wants to send you %2$d file(s) (%3$s).</string>
+    <string name="offer_accept">Accept</string>
+    <string name="offer_decline">Decline</string>
+    <string name="offer_expired">The incoming transfer timed out.</string>
+
+    <!-- Transfer -->
+    <string name="transfer_sending">Sending</string>
+    <string name="transfer_receiving">Receiving</string>
+    <string name="transfer_cancel">Cancel</string>
+    <string name="transfer_cancelled">Transfer cancelled</string>
+    <string name="transfer_done">Transfer complete</string>
+    <string name="transfer_failed">Transfer failed</string>
+    <string name="transfer_verified">Verified with SHA-256 checksum</string>
+    <string name="transfer_verification_failed">Some files failed checksum verification</string>
+    <string name="transfer_file_of">File %1$d of %2$d</string>
+    <string name="transfer_speed_eta">%1$s · %2$s left</string>
+    <string name="transfer_close">Close</string>
+    <string name="transfer_retry">Retry</string>
+    <string name="transfer_background_hint">You can leave QuickShare — the transfer keeps running.</string>
+
+    <!-- History -->
+    <string name="history_title">Transfer history</string>
+    <string name="history_empty">Nothing transferred yet</string>
+    <string name="history_empty_hint">Completed sends and receives will be listed here with their verification status.</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_clear_confirm">Delete all history records?</string>
+    <string name="history_clear_confirm_message">This removes the list only. Files already transferred are not affected.</string>
+    <string name="history_sent_to">Sent to %1$s</string>
+    <string name="history_received_from">Received from %1$s</string>
+    <string name="history_verified">Checksum verified</string>
+    <string name="history_not_verified">Not verified</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_device_section">This device</string>
+    <string name="settings_device_name">Device name</string>
+    <string name="settings_device_name_hint">Shown to other devices on the network</string>
+    <string name="settings_device_id">Device ID</string>
+    <string name="settings_transfer_section">Transfers</string>
+    <string name="settings_save_location">Save received files to</string>
+    <string name="settings_save_location_none">Not chosen yet</string>
+    <string name="settings_save_location_hint">QuickShare can only write inside the folder you pick.</string>
+    <string name="settings_require_pairing">Require pairing code</string>
+    <string name="settings_require_pairing_hint">Always ask before accepting a connection</string>
+    <string name="settings_auto_accept">Auto-accept from known devices</string>
+    <string name="settings_auto_accept_hint">Skip the prompts for devices you have received from before</string>
+    <string name="settings_save_gallery">Add received images to the gallery</string>
+    <string name="settings_keep_screen_on">Keep screen awake while transferring</string>
+    <string name="settings_notifications">Show transfer notifications</string>
+    <string name="settings_appearance_section">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_about">About QuickShare</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_reset">Reset settings</string>
+    <string name="settings_reset_confirm">Reset all settings to their defaults?</string>
+    <string name="settings_reset_message">Your transfer history is not affected.</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_what">QuickShare moves files directly between devices on the same Wi-Fi network. Nothing is uploaded anywhere, and no account is needed.</string>
+    <string name="about_how">Files are streamed in small chunks, so a multi-gigabyte video transfers without ever being loaded into memory. Every completed transfer is verified with a SHA-256 checksum and written only inside the folder you choose.</string>
+    <string name="about_permissions">QuickShare asks only for network and notification permissions. It does not request location, contacts, or full storage access.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_transfer_name">Transfers</string>
+    <string name="notif_channel_transfer_desc">Progress for file transfers in progress</string>
+    <string name="notif_channel_prompt_name">Incoming requests</string>
+    <string name="notif_channel_prompt_desc">Pairing requests and incoming file offers</string>
+    <string name="notif_receiving">Receiving files</string>
+    <string name="notif_sending">Sending files</string>
+    <string name="notif_ready">Ready to receive</string>
+    <string name="notif_pair_request">Pairing request</string>
+    <string name="notif_pair_request_text">%1$s wants to connect. Tap to confirm.</string>
+    <string name="notif_offer_request">Incoming files</string>
+    <string name="notif_offer_request_text">%1$s wants to send %2$d file(s). Tap to review.</string>
+    <string name="notif_open">Open</string>
+
+    <!-- Errors -->
+    <string name="connect_added">Added %1$s. Tap it in the device list to send files.</string>
+    <string name="error_no_wifi">You are not connected to a Wi-Fi network.</string>
+    <string name="error_no_storage">Not enough free storage for this transfer.</string>
+    <string name="error_no_destination">Choose a folder to save received files into.</string>
+    <string name="error_invalid_ip">Enter a valid IPv4 address, for example 192.168.1.42</string>
+    <string name="error_connect_failed">Could not reach %1$s. Check that both devices are on the same Wi-Fi network.</string>
+    <string name="error_notifications_denied">Notifications are off, so transfer progress will only be visible inside the app.</string>
+
+    <!-- Accessibility -->
+    <string name="cd_device_icon">Device</string>
+    <string name="cd_file_icon">File</string>
+    <string name="cd_theme_option">Theme option</string>
+
+    <!-- Capture theme -->
+    <string name="zxing_app_name">QuickShare</string>
+
+    <!-- ======================= Help: how to use ======================= -->
+    <string name="home_how_to_use">How to use QuickShare</string>
+    <string name="home_active_transfers">Transfers in progress</string>
+    <string name="settings_how_to_use">How to use QuickShare</string>
+    <string name="settings_how_to_use_hint">Step-by-step guide to sending and receiving</string>
+    <string name="settings_about_us">About us</string>
+    <string name="settings_device_name_save">Save name</string>
+    <string name="send_code_hint">The other device will ask to confirm this code before anything is sent.</string>
+    <string name="error_invalid_qr">That QR code is not a QuickShare pairing code.</string>
+
+    <string name="howto_title">How to use QuickShare</string>
+    <string name="howto_intro">QuickShare sends files straight from one device to another over Wi-Fi. No internet, no account, no cloud.</string>
+
+    <string name="howto_before_title">Before you start</string>
+    <string name="howto_before_1">Connect both devices to the same Wi-Fi network. No router? Turn on the hotspot on one phone and join it from the other.</string>
+    <string name="howto_before_2">Open QuickShare on both devices.</string>
+    <string name="howto_before_3">On the device that will receive, keep “Receive files” switched on (first tab).</string>
+
+    <string name="howto_send_title">Send files</string>
+    <string name="howto_send_1">On the Nearby tab, wait for the other device to appear in the list.</string>
+    <string name="howto_send_2">Tap the device you want to send to.</string>
+    <string name="howto_send_3">Tap “Choose files” and pick one or more files. You can add more or remove some before sending.</string>
+    <string name="howto_send_4">Tap “Send”. A pairing code is shown on your screen.</string>
+    <string name="howto_send_5">Watch the progress bar. You can cancel at any time, and a failed transfer can be retried from the History tab.</string>
+
+    <string name="howto_receive_title">Receive files</string>
+    <string name="howto_receive_1">Keep “Receive files” switched on. Your device is now visible to nearby devices.</string>
+    <string name="howto_receive_2">When someone sends to you, check that the pairing code on your screen matches the one on theirs, then tap Accept.</string>
+    <string name="howto_receive_3">Review the list of files and the total size, then accept the transfer.</string>
+    <string name="howto_receive_4">Received files are saved in a QuickShare folder inside the folder you chose in Settings. The first time, you will be asked to pick one.</string>
+
+    <string name="howto_missing_title">Device not showing up?</string>
+    <string name="howto_missing_1">Tap Refresh, and check both devices are on the same Wi-Fi network with QuickShare open.</string>
+    <string name="howto_missing_2">Use “Show my QR code” on one device and “Scan QR code” on the other.</string>
+    <string name="howto_missing_3">Or choose “Connect by IP address” and type the other device\'s address, for example 192.168.1.42.</string>
+
+    <string name="howto_tips_title">Good to know</string>
+    <string name="howto_tips_1">Every finished transfer is checked with a SHA-256 checksum, so you know the file arrived intact.</string>
+    <string name="howto_tips_2">The History tab shows what was sent and received, and whether each file was verified.</string>
+    <string name="howto_tips_3">Large files are fine. Keep the devices close to the router and avoid locking the screen during very long transfers.</string>
+
+    <!-- ======================= About us ======================= -->
+    <string name="aboutus_title">About us</string>
+    <string name="aboutus_created_by">Created by Cluster_Lab</string>
+    <string name="aboutus_body">QuickShare is designed and built by Cluster_Lab: fast, private file sharing between your own devices, with no accounts and no cloud.</string>
+    <string name="aboutus_copyright">© Cluster_Lab. All rights reserved.</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night-qualified copy of the theme: only the colour roles change. -->
+    <style name="Theme.QuickShare" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_dark</item>
+        <item name="colorOnPrimary">@color/brand_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container_dark</item>
+        <item name="colorSecondary">@color/brand_secondary_dark</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary_dark</item>
+        <item name="colorSecondaryContainer">@color/brand_secondary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_secondary_container_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/surface_container_dark</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_dark</item>
+        <item name="colorOutline">@color/outline_dark</item>
+        <item name="colorOutlineVariant">@color/outline_variant_dark</item>
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOnError">@color/on_error_dark</item>
+        <item name="colorErrorContainer">@color/error_container_dark</item>
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+        <item name="materialAlertDialogTheme">@style/Theme.QuickShare.Dialog</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.QuickShare.BottomSheet</item>
+    </style>
+</resources>

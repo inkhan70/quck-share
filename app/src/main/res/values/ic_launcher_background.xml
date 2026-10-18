@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Launcher icon background.
+      The same deep teal as the app's primary colour, so the icon and the app read as one product.
+      Declared as a colour (rather than a drawable) because the adaptive-icon format accepts one, and a
+      flat colour needs no density variants at all.
+    -->
+    <color name="ic_launcher_background">#00696D</color>
+</resources>

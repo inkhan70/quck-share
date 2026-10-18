@@ -1,0 +1,28 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration — machine specific, never shareable
+local.properties
+
+# Signing material — must never be committed
+keystore.properties
+*.jks
+*.keystore
+secrets/
+
+# IDE
+.idea/
+*.iml
+*.hprof
+.DS_Store
+
+# Generated
+captures/
+.externalNativeBuild/
+.cxx/

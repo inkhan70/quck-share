@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reusable dimens, so spacing is consistent instead of ad hoc per screen. -->
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">24dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="card_corner">20dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="device_icon_size">48dp</dimen>
+    <dimen name="file_icon_size">40dp</dimen>
+    <dimen name="qr_size">260dp</dimen>
+    <dimen name="primary_action_size">88dp</dimen>
+</resources>

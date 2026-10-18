@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      QuickShare palette.
+      A single teal/cyan family drives the whole app so the accent reads the same in light and dark
+      mode. Only the four seed colours differ between modes; every other tone is derived from them in
+      themes.xml, which keeps the two themes from drifting apart.
+    -->
+    <color name="brand_primary">#00696D</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#6FF6FC</color>
+    <color name="brand_on_primary_container">#002021</color>
+    <color name="brand_secondary">#4A6363</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_secondary_container">#CCE8E7</color>
+    <color name="brand_on_secondary_container">#051F1F</color>
+
+    <!-- Dark-mode counterparts -->
+    <color name="brand_primary_dark">#4CDADE</color>
+    <color name="brand_on_primary_dark">#003739</color>
+    <color name="brand_primary_container_dark">#004F51</color>
+    <color name="brand_on_primary_container_dark">#6FF6FC</color>
+    <color name="brand_secondary_dark">#B0CCCB</color>
+    <color name="brand_on_secondary_dark">#1B3534</color>
+    <color name="brand_secondary_container_dark">#324B4B</color>
+    <color name="brand_on_secondary_container_dark">#CCE8E7</color>
+
+    <!-- Light surfaces -->
+    <color name="surface_light">#FAFDFC</color>
+    <color name="surface_container_light">#EEF4F3</color>
+    <color name="surface_container_high_light">#E7EFEE</color>
+    <color name="on_surface_light">#191C1C</color>
+    <color name="on_surface_variant_light">#3F4949</color>
+    <color name="outline_light">#6F7979</color>
+    <color name="outline_variant_light">#BEC9C8</color>
+    <color name="error_light">#BA1A1A</color>
+    <color name="on_error_light">#FFFFFF</color>
+    <color name="error_container_light">#FFDAD6</color>
+
+    <!-- Dark surfaces -->
+    <color name="surface_dark">#101414</color>
+    <color name="surface_container_dark">#1C2020</color>
+    <color name="surface_container_high_dark">#262B2B</color>
+    <color name="on_surface_dark">#E0E3E2</color>
+    <color name="on_surface_variant_dark">#BEC9C8</color>
+    <color name="outline_dark">#899393</color>
+    <color name="outline_variant_dark">#3F4949</color>
+    <color name="error_dark">#FFB4AB</color>
+    <color name="on_error_dark">#690005</color>
+    <color name="error_container_dark">#93000A</color>
+
+    <!-- Status accents (transfer state), chosen to stay legible on both surfaces -->
+    <color name="status_success">#1B7F4B</color>
+    <color name="status_success_dark">#7BE0A8</color>
+    <color name="status_warning">#8B5000</color>
+    <color name="status_warning_dark">#FFB77A</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="qr_background">#FFFFFF</color>
+    <color name="qr_foreground">#000000</color>
+</resources>
